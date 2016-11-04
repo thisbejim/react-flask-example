@@ -10,11 +10,11 @@ Requires python and node.
 ## Development
 
 1. In the client directory: ```npm start```
-2. In the root directory: ```python run.py```
-3. Go to http://localhost:3000/
+2. In a separate terminal, in the root directory: ```python run.py```
+3. Go to [http://localhost:3000/](http://localhost:3000/)
 
 ## Production
 
 1. In the client directory: ```npm run build```
 2. In the root directory: ```python run.py```
-3. Go to http://localhost:5000/
+3. Go to [http://localhost:5000/](http://localhost:5000/)
