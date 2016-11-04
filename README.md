@@ -16,5 +16,5 @@ Requires python and node.
 ## Production
 
 1. In the client directory: ```npm run build```
-2. In the root directory: ```python run.py```
+2. After the build finishes: In the root directory: ```python run.py```
 3. Go to [http://localhost:5000/](http://localhost:5000/)
