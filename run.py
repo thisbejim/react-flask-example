@@ -1,7 +1,9 @@
 from flask import Flask, render_template, request, jsonify
 import os
 
+# Set the template and static folder to the client build
 app = Flask(__name__, template_folder="client/build", static_folder="client/build/static")
+
 app.config['SECRET_KEY'] = 'super secret key'
 app.config['SITE'] = "http://0.0.0.0:5000/"
 app.config['DEBUG'] = True
